@@ -1,0 +1,164 @@
+.navbar{
+    margin: auto;
+    width: 80%;
+}
+.head-1
+{
+    height: 100vh;
+    background-image:linear-gradient(rgb(0,0,0,0.5),rgba(0,0,0,0.5)), url('https://img.freepik.com/free-photo/engineer-is-inspecting-his-work-building-construction-site_1150-6195.jpg?w=740&t=st=1698228672~exp=1698229272~hmac=68271f0ce5a5456edfa7bfd24cefea5179a3870a6eb6be85dd5970b69ab206e7');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+
+}
+.headcontent{
+    text-align: center;
+    justify-content: center;
+    margin-top: 8%;
+    margin-bottom: 5%;
+}
+.texthead h3{
+    color: white;
+    font-size: 65px;
+}
+.texthead p{
+    font-size: 18px;
+    color:white;
+}
+.button .btn{
+    margin-top: 20px;
+    background-color: orange;
+    border-radius: 30px
+}
+
+.service{
+    background-color: white;
+}
+.abtservice{
+    text-align: center;
+    justify-content: center;
+    padding-top: 5%;
+    padding-bottom: 2%;
+}
+.abtservice h3{
+  font-size: 45px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.p-1{
+    padding-left: 5%;
+    padding-right: 5%;
+    color:rgba(0, 0, 0, 0.555);
+}
+.iconabtservice{
+    background-color: rgba(128, 128, 128, 0.048);
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    text-align: center;
+    justify-content: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    gap: 30px;
+    padding-bottom: 5%;
+}
+.iconabtservice i{
+    font-size: 40px;
+    color: orange;
+    padding-bottom: 20px;
+}
+.iconabtservice p{
+    color: rgba(0, 0, 0, 0.534);
+    padding-top: 12px;
+}
+.containerimg{
+    padding-top: 5%;
+    background-color: whitesmoke;
+    padding-bottom: 5%;
+}
+.allimg{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 35px;
+    margin-left: 6%;
+    margin-right: 6%;
+}
+.top{
+    text-align: center;
+    justify-content: center;
+}
+.top h3{
+    font-size: 35px;
+}
+.p-2{
+    color: rgba(0, 0, 0, 0.562);
+    font-size: 17px;
+    padding-top: 20px;
+}
+.top a{
+    text-decoration: none;
+    color: black;
+}
+.top a:hover{
+    color: orange;
+}
+.text{
+    padding-bottom: 4%;
+}
+.containerinfo{
+    background-color: rgba(128, 128, 128, 0.041);
+    color: black;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+.bothtext{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 6%;
+    padding-right: 6%;
+}
+.info{
+    text-align: center;
+    justify-content: center;
+}
+.info h2{
+    font-size: 40px;
+    text-align: left;
+    font-weight: 400;
+    padding-bottom: 4%;
+    
+}
+.info p{
+    text-align: left;
+    padding-top: 4%;
+    color: rgba(0, 0, 0, 0.548);
+}
+.footer{
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+.footericon{
+    background-color: rgba(128, 128, 128, 0.048);
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    text-align: center;
+    justify-content: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    gap: 30px;
+    padding-bottom: 5%;
+}
+.footericon i{
+    font-size: 40px;
+    color: orange;
+    padding-bottom: 20px;
+}
+.footericon p{
+    color: rgba(0, 0, 0, 0.534);
+    padding-top: 12px;
+}
